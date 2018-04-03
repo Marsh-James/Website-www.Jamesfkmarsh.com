@@ -13,8 +13,9 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
     font-size: 3vmax;
+
     padding: 0;
-    margin-left: 5px;
+    margin: 0 0 0 10px;
 }
 
 .subHeaderText {
@@ -28,17 +29,19 @@ body {
 }
 
 .contactText{
+
     text-align: left;
     padding: 0;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 1vmax;
-    line-height: 1.35em;
+    line-height: 1vmax;
+    
     
     opacity: 0.6;
-    padding: 0;
-    margin: 0 0 5 10px
+    padding: 0 0 9px 0;
+    margin: -1vmax 0 0 10px;
 }
 
 .normalText {
@@ -102,10 +105,6 @@ body {
     border-bottom: 0.3vmax solid #2952f4;
 }
 
-.underpin {
-   top: -15px;
-}
-
 #clickthroughLink {
     display: inline;
 }
@@ -132,7 +131,6 @@ a.quietLink:hover {
     transition:.25s;
 }
 
-
 @media only screen and (max-width: 1000px) {
     .sideBorder {
         border-left: 3vmax solid #4166f5;
@@ -150,25 +148,8 @@ a.quietLink:hover {
         height: 3.5vmax;
         opacity: 0.7;
     }
-
-    .contactText{
-        text-align: left;
-        padding: 0;
-        display: inline-block;
-        font-family: 'Source Sans Pro', sans-serif;
-        font-weight: 400;
-        font-size: 1vmax;
-        line-height: 1.35em;
-
-        opacity: 0.6;
-        padding: 0;
-        margin: 0 0 5px 6px
-    }
+    
     .logoSpacer {
         margin-right: 6px;
-    }
-    
-    .underpin {
-        top: -8px;
     }
 }
