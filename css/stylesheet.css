@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.headerText {
+    text-align: left;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 3vmax;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.subHeaderText {
+    text-align: left;
+    padding: 0;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1vmax;
+    line-height: 1.35em;
+}
+
+.contactText{
+    text-align: left;
+    padding: 0;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 1.35em;
+    
+    opacity: 0.6;
+    padding: 0;
+    margin: 0 0 5 10px
+}
+
+.normalText {
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 1em;
+    margin-left: 1.5em;
+    margin-top: 0.1em;
+    padding-bottom: 0.65em;
+}
+
+.companyHeaderText{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 1em;
+    margin-top: 1em;
+    opacity: 0.5;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.logoFormatter {
+    display: inline-block;
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin: 0 none;
+    cursor: pointer;
+    width: auto;
+    height: 3.5vmax;
+    opacity: 0.7;
+}
+
+.logoSpacer {
+    margin-right: 20px;
+}
+
+.workSpacer {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.lineBreakDecoration {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.9vmax;
+}
+
+.sideBorder {
+    border-left: 2.3vmax solid #4166f5;
+    padding: 0
+}
+
+.infoBorder {
+    border-bottom: 0.3vmax solid #2952f4;
+}
+
+.underpin {
+   top: -15px;
+}
+
+#clickthroughLink {
+    display: inline;
+}
+
+#clickthroughLink:hover {
+    cursor: pointer;
+    display: inline;
+}
+
+a.quietLink {
+    text-decoration: none;
+    display: inline;
+    font-weight: 400;
+    
+}
+
+a.quietLink:hover {
+    opacity: 0.7;
+    
+    -o-transition:.25s;
+    -ms-transition:.25s;
+    -moz-transition:.25s;
+    -webkit-transition:.25s;
+    transition:.25s;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .sideBorder {
+        border-left: 3vmax solid #4166f5;
+        padding: 0
+    }
+    
+    .logoFormatter {
+        display: inline-block;
+
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 0 none;
+        cursor: pointer;
+        width: auto;
+        height: 3.5vmax;
+        opacity: 0.7;
+    }
+
+    .contactText{
+        text-align: left;
+        padding: 0;
+        display: inline-block;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1vmax;
+        line-height: 1.35em;
+
+        opacity: 0.6;
+        padding: 0;
+        margin: 0 0 5px 6px
+    }
+    .logoSpacer {
+        margin-right: 6px;
+    }
+    
+    .underpin {
+        top: -8px;
+    }
+}
