@@ -44,3 +44,5 @@
     -webkit-transition: opacity .4s ease-out;
     -o-transition: opacity .4s ease-out;
 }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span{ background: #fff !important; } 
