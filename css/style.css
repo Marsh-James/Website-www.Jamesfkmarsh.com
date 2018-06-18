@@ -6,20 +6,28 @@
     font-weight: 600;
     font-size: 4vmax;
     
+    text-align: center;
+    margin-left: 20vw;
+}
+
+.titleLanding {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 4vmax;
+    
     text-align: left;
     margin-left: 20vw;
 }
 
 .titleImg {
     display: inline;
-    margin: 0 auto;
     background: None;
-    width: auto;
-    height: auto;
-    min-width: 1%;
+
+    min-width: 0.5%;
     min-height: auto;
     
-    margin: 0.2vmax;
+    margin: 0.2% 0.6% 0% 0%;
 }
 
 .about {
@@ -111,3 +119,35 @@ ul.projectList {
 }
 
 #fp-nav ul li a span, .fp-slidesNav ul li a span{ background: #fff !important; } 
+
+
+@media all and (max-width:800px) {
+    .title {
+        color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 5vmax;
+
+        text-align: center;
+    }
+    
+    .titleLanding {
+        color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 5vmax;
+
+        text-align: left;
+        margin-left: 20vw;
+    }
+    
+    .contactCard {
+        color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 600;
+        font-size: 2vmax;
+
+        width: auto;
+        text-align: right;
+    }
+}
