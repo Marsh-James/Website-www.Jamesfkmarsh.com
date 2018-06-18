@@ -26,33 +26,36 @@
     </head>
     
     <body style="background-color: #000000">
+
         <div id="wrapper">
+            
             <div class="section" style="background-color: #4166f5; height: 100vh">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-auto" style="padding: 4px;"><div class="title titleShadow animated fadeInUp">James Marsh Portfolio</div></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-auto fade"><div class="contactCard subTitleShadow animated fadeInUp">Jamesfkmarsh@gmail.com</div></div>
-                        <div class="col-md-auto fadeImg"><a href="https://github.com/Marsh-James" class="titleImg animated fadeInUp"><img src="resources/github.png" style="padding-left: 10px; width: 1.5vmax" /></a></div>
-                        <div class="col-md-auto fadeImg"><a href="https://www.linkedin.com/in/marsh-james/" class="titleImg animated fadeInUp"><img src="resources/linkedin.png" style="padding-left: 10px; width: 5vmax;" /></a></div>
-                    </div>
-                </div>
-                <!--
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-auto">
-                            
-                            
-                        </div>
-                    </div>
-                </div>
-                -->
+                
+                <div class="title titleShadowIntro animated fadeInUp">James Marsh Portfolio</div>
+                <div class="contactCard fade animated fadeInUp">ContactMarshJames@gmail.com</div>
+                <a href="https://github.com/Marsh-James" class="animated fadeInUp"><img src="resources/github.png" class="titleImg" style="height: 3.3%; margin-left: 20vw;" /></a>
+                <a href="https://www.linkedin.com/in/marsh-james/" class="animated fadeInUp"><img src="resources/linkedin.png" class="titleImg" style="width: 5%;" /></a>
             </div>
-            <div class="section" style="background-color: #ff5333; height: 100vh"></div>
+
+            <div class="section" style="background-color: #ff5333; height: 100vh">
+                <div class="title titleShadowAbout">About</div>
+                <div class="about">
+                    <p>Currently I'm studying Computer Science at the University of Southampton. Projects I tend to gravitate to in part due to my interests are: <b>Data analysis</b>; <b>Machine Learning</b>
+                     (more recently RNN work); <b>computer vision</b>. As well as anything in the <b>financial sector</b>.</p>
+                    <p>Here's a raw list of some of the project I've been involved in:</p>
+                    <ul class="projectList">
+                        <li>Adaptive Boosting in Computer Vision</li>
+                        <li>Community web-development</li>
+                        <li>Financial market tracking autonomous trading</li>
+                        <li>Google Hashcode competition</li>
+                    </ul>
+                    <p>If you would like to contact me, my email is in the above section!</p>
+                </div>
+            </div>
+            
             <div class="section" style="background-color: #ffe04d; height: 100vh"></div>
-            <div class="section" style="background-color: #ff69b4; height: 100vh"></div>
         </div>
+            
         <script>
             $(document).ready(function(){
                 $('#wrapper').fullpage({navigation: true});
